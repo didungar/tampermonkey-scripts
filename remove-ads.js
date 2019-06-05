@@ -6,8 +6,10 @@
 // @author       Didier Ungar
 // @match        https://*/*
 // @grant        none
-// @require http://code.jquery.com/jquery-3.3.1.min.js
-// @require http://api.list.dev-performance.com/tag-ads.array
+// @downloadURL  https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/remove-ads.js
+// @updateURL    https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/remove-ads.js
+// @require      http://code.jquery.com/jquery-3.3.1.min.js
+// @require      http://api.list.dev-performance.com/tag-ads.array
 // ==/UserScript==
 
 (function() {
