@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name     slack.com/messages
-// @namespace  http://tampermonkey.net/
-// @version    0.1
-// @description  try to take over the world!
-// @author     You
-// @match    https://*.slack.com/messages/*
-// @grant    none
-// @require    http://didungar.com/fonctions_correct.js
+// @name         slack.com/messages
+// @namespace    http://tampermonkey.net/
+// @version      1.0.0.0
+// @description  For write correctly into slack chat
+// @author       Didier Ungar
+// @match        https://*.slack.com/messages/*
+// @grant        none
+// @downloadURL  https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/slack-messages.js
+// @updateURL    https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/slack-messages.js
+// @require      http://didungar.com/fonctions_correct.js
 // ==/UserScript==
 
 timestamp = Date.now();
