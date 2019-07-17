@@ -12,18 +12,18 @@
 // @require      http://api.list.dev-performance.com/tag-ads.array
 // ==/UserScript==
 
-(function() {
+( function() {
     'use strict';
 
-    $( 'a' ).each(function( index ) {
-        if ( 'string' !== typeof $( this ).attr('href') ) return;
+    $( 'a' ).each( function( index ) {
+        if ( 'string' !== typeof $( this ).attr( 'href' ) ) return;
 
-        for (var i = 0; i < tag_ads.length; i++) {
-            var regex = new RegExp(tag_ads[i]);
-            if ( $( this ).attr('href').match(regex) ) {
-                console.log( index + ": " + $( this ).attr('href') + ' => remove ('+regex+')' );
+        for ( var i = 0; i < tag_ads.length; i++ ) {
+            var regex = new RegExp( tag_ads[i] );
+            if ( $( this ).attr( 'href' ).match( regex ) ) {
+                console.log( index + ": " + $( this ).attr( 'href' ) + ' => remove (' + regex + ')' );
                 $( this ).remove();
             }
         }
-    });
-})();
+    } );
+} )();
