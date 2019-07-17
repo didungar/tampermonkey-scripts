@@ -5,6 +5,7 @@
 // @description  For write correctly into slack chat
 // @author       Didier Ungar
 // @match        https://*.slack.com/messages/*
+// @match        https://app.slack.com/client/*/*
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/slack-messages.js
 // @updateURL    https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/slack-messages.js
