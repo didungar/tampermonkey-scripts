@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         SMS Helper
 // @namespace    https://messages.google.com/web
-// @version      1.0.0.0
+// @version      1.0.0.1
 // @description  For write correctly into google messages.
 // @author       Didier Ungar
 // @match        https://messages.google.com/web/conversations/*
+// @downloadURL  https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/messages.google.js
+// @updateURL    https://raw.githubusercontent.com/didungar/tampermonkey-scripts/master/messages.google.js
 // @grant        none
 // @require      http://didungar.com/fonctions_correct.js
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
