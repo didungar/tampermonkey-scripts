@@ -6,6 +6,8 @@
 // @match        https://gemini.google.com/*
 // @grant        none
 // @run-at       document-idle
+// @updateURL    https://raw.githubusercontent.com/didungar/tampermonkey-scripts/refs/heads/master/Gemini-Auto-Temporaire.js
+// @downloadURL  https://raw.githubusercontent.com/didungar/tampermonkey-scripts/refs/heads/master/Gemini-Auto-Temporaire.js
 // ==/UserScript==
 
 (function() {
